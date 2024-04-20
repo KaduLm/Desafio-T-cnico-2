@@ -2,7 +2,7 @@ require('dotenv').config();
 
 const express = require('express');
 const mongoose = require('mongoose');
-const jwt = require('jsonwebtoken'); // Added library for JWT
+const jwt = require('jsonwebtoken'); 
 const Product = require('./models/productModel');
 const app = express();
 
